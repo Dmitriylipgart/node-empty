@@ -9,5 +9,11 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "commonjs"
+  "type": "commonjs",
+  "comment": "Versions below are INTENTIONALLY pinned to known-vulnerable releases to verify SCA scanning. See security-canary/README.md.",
+  "dependencies": {
+    "lodash": "4.17.15",
+    "minimist": "1.2.0",
+    "axios": "0.21.0"
+  }
 }
